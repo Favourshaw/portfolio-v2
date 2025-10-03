@@ -216,12 +216,4 @@ export const projects = [
       "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
     link: "https://github.com/adrianhajdin/projects_realestate",
   },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
-    description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
-  },
 ];
