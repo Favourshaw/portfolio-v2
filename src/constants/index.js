@@ -10,20 +10,18 @@ import {
   html,
   javascript,
   linkedin,
-  mongodb,
   motion,
   mui,
   nextjs,
   nodejs,
   pricewise,
   react,
-  redux,
   sass,
-  snapgram,
-  summiz,
   tailwindcss,
   threads,
   typescript,
+  docker,
+  laravel,
 } from "../assets/icons";
 
 export const skills = [
@@ -57,11 +55,7 @@ export const skills = [
     name: "JavaScript",
     type: "Frontend",
   },
-  {
-    imageUrl: mongodb,
-    name: "MongoDB",
-    type: "Database",
-  },
+
   {
     imageUrl: motion,
     name: "Motion",
@@ -87,11 +81,7 @@ export const skills = [
     name: "React",
     type: "Frontend",
   },
-  {
-    imageUrl: redux,
-    name: "Redux",
-    type: "State Management",
-  },
+
   {
     imageUrl: sass,
     name: "Sass",
@@ -106,6 +96,16 @@ export const skills = [
     imageUrl: typescript,
     name: "TypeScript",
     type: "Frontend",
+  },
+  {
+    imageUrl: docker,
+    name: "Docker",
+    type: "Frontend",
+  },
+  {
+    imageUrl: laravel,
+    name: "TypeScript",
+    type: "Laravel",
   },
 ];
 
