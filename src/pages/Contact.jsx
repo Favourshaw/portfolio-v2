@@ -8,6 +8,7 @@ import Fox from "../models/Fox";
 
 import useAlert from "../hooks/useAlert";
 import Alert from "../components/Alert";
+import Socials from "../components/Socials";
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -70,6 +71,8 @@ const Contact = () => {
       {alert.show && <Alert {...alert} />}
       <div className="flex-1 min-w-[50%] flex flex-col">
         <h1 className="head-text">Get in Touch</h1>
+
+        <Socials />
 
         <form
           onSubmit={handleSubmit}
