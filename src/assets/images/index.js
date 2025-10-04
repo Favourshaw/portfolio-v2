@@ -7,6 +7,7 @@ import logo from "./logo.svg";
 import portfolio from "./portfolio.png";
 import kwick from "./kwick.png";
 import xircar from "./xircar.png";
+import verse from "./verse.png";
 
 export {
   hero,
@@ -18,4 +19,5 @@ export {
   portfolio,
   kwick,
   xircar,
+  verse,
 };

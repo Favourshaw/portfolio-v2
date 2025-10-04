@@ -1,4 +1,4 @@
-import { kwick, xircar, portfolio } from "../assets/images";
+import { kwick, xircar, portfolio, verse } from "../assets/images";
 import {
   contact,
   css,
@@ -151,20 +151,29 @@ export const projects = [
   },
   {
     iconUrl: xircar,
-    theme: "btn-back-blue",
-    name: "Portfolio website (Three JS)",
+    theme: "btn-back-green",
+    name: "Website for Xircar",
     description:
-      "Developed an interactive 3D portfolio website using React, Tailwind, some Css, Three js and some other technologies.",
+      "A modern, high-performance website built with Next.js, Tailwind CSS, and Framer Motion, designed to deliver a seamless, responsive, and visually engaging user experience. It combines elegant UI design with smooth animations and optimized loading for a truly dynamic web presence.",
     link: "https://company-tatl.vercel.app/",
     git: "https://github.com/Favourshaw/portfolio-v2",
   },
   {
     iconUrl: kwick,
-    theme: "btn-back-blue",
-    name: "Portfolio website (Three JS)",
+    theme: "btn-back-black",
+    name: "Website for kwickswap",
     description:
-      "Developed an interactive 3D portfolio website using React, Tailwind, some Css, Three js and some other technologies.",
+      "A beautifully animated web experience built with React.js, Tailwind CSS, and Framer Motion. Every section comes to life with fluid motion and subtle visual effects, creating a balance between performance and creativity in a fully responsive design.",
     link: "https://crypto-proj.vercel.app/",
     git: "https://github.com/Favourshaw/portfolio-v2",
+  },
+  {
+    iconUrl: verse,
+    theme: "btn-back-grey",
+    name: "Verse Consulting",
+    description:
+      "A simple one page website for Verse Consulting. The website is built with React, Tailwind CSS, and Framer Motion, and it features a clean and modern design with smooth animations.",
+    link: "https://verseconsulting.xyz/",
+    git: "https://github.com/Favourshaw/versegallery",
   },
 ];
