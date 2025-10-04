@@ -6,6 +6,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import CTA from "../components/CTA";
+import Socials from "../components/Socials";
 
 const About = () => {
   return (
@@ -19,9 +20,23 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          I am a software Engineer based in Nigeria, specializing in front-end
-          web development
+          I’m Favour, a software engineer and creative developer who loves
+          bringing ideas to life through code.
+          <br />
+          <br />
+          From sleek frontend interfaces to robust backend systems, I enjoy
+          building digital products that are fast, reliable, and visually
+          engaging. My main stack includes Next.js, React, Tailwind CSS,
+          Laravel, and more. with a focus on performance and user experience.
+          <br />
+          <br />
+          Technology moves fast — and I love keeping up. Whether it’s
+          experimenting with animations in Framer Motion or optimizing an API,
+          I’m always looking for ways to push boundaries and make the web a
+          little better.
         </p>
+
+        <Socials />
       </div>
 
       <div className="py-10 flex flex-col">
