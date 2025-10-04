@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, portfolio } from "../assets/images";
+import { kwick, xircar, portfolio } from "../assets/images";
 import {
   contact,
   css,
@@ -150,21 +150,21 @@ export const projects = [
     git: "https://github.com/Favourshaw/portfolio-v2",
   },
   {
-    iconUrl: portfolio,
+    iconUrl: xircar,
     theme: "btn-back-blue",
     name: "Portfolio website (Three JS)",
     description:
       "Developed an interactive 3D portfolio website using React, Tailwind, some Css, Three js and some other technologies.",
-    link: "https://portfolio-v2-silk-delta.vercel.app",
+    link: "https://company-tatl.vercel.app/",
     git: "https://github.com/Favourshaw/portfolio-v2",
   },
   {
-    iconUrl: portfolio,
+    iconUrl: kwick,
     theme: "btn-back-blue",
     name: "Portfolio website (Three JS)",
     description:
       "Developed an interactive 3D portfolio website using React, Tailwind, some Css, Three js and some other technologies.",
-    link: "https://portfolio-v2-silk-delta.vercel.app",
+    link: "https://crypto-proj.vercel.app/",
     git: "https://github.com/Favourshaw/portfolio-v2",
   },
 ];
