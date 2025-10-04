@@ -109,7 +109,7 @@ body:has(.card[data-color="green"]:hover) {
   transition: 250ms;
   transform-style: preserve-3d;
   transform-origin: bottom right;
-  transform: rotateZ(15deg);
+  transform: rotateZ(9deg);
   will-change: transform;
   box-shadow: 16px 0 40px #e4e4e4;
 }
@@ -158,11 +158,11 @@ body:has(.card[data-color="green"]:hover) {
 }
 
 .block-container:hover > .btn-back {
-  transform: translateZ(20px) rotateZ(15deg) rotateX(-20deg) rotateY(-20deg);
+  transform: translateZ(20px) rotateZ(9deg) rotateX(-10deg) rotateY(-10deg);
 }
 
 .block-container:hover > .btn-front {
-  transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
+  transform: translateZ(50px) translateY(-5px) rotateX(10deg) rotateY(10deg);
 }
 
 /* Neo Brutalism */
